@@ -106,5 +106,3 @@ MIT
 - [Discussions](https://github.com/your-org/rag-based-app/discussions)
 
 ---
-
-<p align="center"><b>Made with ❤️ for next-gen document intelligence</b></p>
