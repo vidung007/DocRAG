@@ -1,0 +1,86 @@
+.summary-display {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.summary-section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.summary-section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.summary-section h2 {
+    margin-bottom: 15px;
+    color: #2c3e50;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e9ecef;
+}
+
+.summary-section p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.summary-section strong {
+    color: #495057;
+    margin-right: 8px;
+}
+
+.summary-display-loading {
+    padding: 40px;
+    text-align: center;
+    color: #777;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.no-data {
+    color: #adb5bd;
+    font-style: italic;
+}
+
+.citations-section {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #e9ecef;
+}
+.citation-block {
+    margin-bottom: 18px;
+    padding: 12px 16px;
+    background: #f8fafc;
+    border-radius: 6px;
+    border: 1px solid #e2e8f0;
+}
+.citation-text {
+    font-size: 1rem;
+    margin-bottom: 6px;
+    color: #334155;
+}
+.citation-references {
+    margin-left: 12px;
+    font-size: 0.95rem;
+    color: #475569;
+}
+.reference {
+    margin-bottom: 6px;
+}
+.reference-uri a {
+    color: #2563eb;
+    text-decoration: underline;
+    font-size: 0.93em;
+}
+.reference-uri a:hover {
+    color: #1d4ed8;
+}

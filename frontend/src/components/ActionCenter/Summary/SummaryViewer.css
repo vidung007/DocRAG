@@ -1,0 +1,133 @@
+.summary-viewer {
+    display: flex;
+    height: calc(100vh - 120px);
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.summary-sidebar {
+    width: 300px;
+    background-color: #f0f2f5;
+    border-right: 1px solid #dee2e6;
+    padding: 15px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.summary-sidebar h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #343a40;
+}
+
+.view-mode-toggle {
+    display: flex;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.view-mode-toggle button {
+    flex: 1;
+    padding: 8px 0;
+    background-color: #e9ecef;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-size: 14px;
+}
+
+.view-mode-toggle button:hover {
+    background-color: #dee2e6;
+}
+
+.view-mode-toggle button.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.mock-data-toggle {
+    margin-bottom: 15px;
+    padding: 8px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.mock-data-toggle label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.mock-data-toggle input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.summary-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.summary-list li {
+    padding: 10px 15px;
+    border-bottom: 1px solid #e9ecef;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-size: 14px;
+    position: relative;
+}
+
+.summary-list li:hover {
+    background-color: #e9ecef;
+}
+
+.summary-list li.selected {
+    background-color: #cfe2ff;
+    border-left: 3px solid #007bff;
+    color: #0d6efd;
+}
+
+.selection-instructions {
+    margin-top: 15px;
+    font-size: 13px;
+    color: #6c757d;
+    text-align: center;
+    font-style: italic;
+}
+
+.summary-content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.loading-indicator {
+    padding: 20px;
+    text-align: center;
+    color: #6c757d;
+}
+
+.error-message {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    color: #721c24;
+}
+
+.no-selection-message {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #6c757d;
+    font-size: 16px;
+} 

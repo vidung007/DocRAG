@@ -1,0 +1,10 @@
+# terraform/terraform.tfvars
+#
+# INSTRUCTIONS:
+# 1. Manually create your Knowledge Base in the AWS Bedrock Console using the "Quick create" option.
+# 2. After it's created, find the "Knowledge base ID" and the "Data source ID" in the console.
+# 3. Paste those values here, replacing the placeholder text.
+#
+# EXAMPLE:
+# knowledge_base_id = "A1B2C3D4E5"
+# data_source_id    = "F6G7H8I9J0"
