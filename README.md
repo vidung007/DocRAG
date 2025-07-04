@@ -1,6 +1,4 @@
-# 🚀 RAG-Based Document Intelligence Platform
-
-![RAG Banner](https://user-images.githubusercontent.com/placeholder/banner.png)
+# 🚀 Doc-RAG
 
 <p align="center">
   <img src="https://img.shields.io/badge/Node.js-Express-green?logo=node.js" />
